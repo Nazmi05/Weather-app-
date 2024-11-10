@@ -1,0 +1,114 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ button{
+    margin-top: 50px;
+    padding: 20px 50px;
+ }
+
+ 
+ body {
+    font-family: "Dancing Script", cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightpink;
+  }
+  
+  .weather-card {
+    background-color: pink;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0px 10px 20px lightcoral;
+    text-align: center;
+    color: #fff;
+    width: 400px;
+  }
+  
+  .location {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .city {
+    color: white;
+  }
+  
+  .country {
+    color: white;
+  }
+  
+  .temperature {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .conditions {
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  .weather__img{
+    max-width: 200px;
+    max-height: 130px;
+  }
+  .main__tem{
+    display: flex;
+    flex-direction: row;
+  }
+  .main__des{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 20px;
+  }
+  .detailed__inf{
+    display: flex;
+    flex-direction: row;
+  }
+  .inf__text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 15px;
+  }
+  .my__wish{
+    max-width: 360px;
+    max-height: 150px;
+    margin-top: 15px;
+    padding-left: 15px;
+
+  }
+.line{
+    display: block;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    border-color:pink;
+    border-radius: none;
+   
+}
+
+@media(max-width:550px){
+  .main__tem{
+    display: flex;
+    flex-direction: column;
+  }
+  .main__des{
+    display: flex;
+    align-items: center;
+  }
+}
